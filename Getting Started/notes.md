@@ -7,3 +7,9 @@ The same image_id can be used to run in docker using **docker run image_id** com
 
 >List the docker process using *docker ps* command.
 Stop the particular process using the *docker stop process_name* command
+
+**Points to remember**
+- Use *-it* option to open interactive terminal while running a docker container
+- Use *-a* option to open all the containers even if there are stopped
+- COPY and RUN executes relative to the working directory
+- Set working directory using WORKDIR command
